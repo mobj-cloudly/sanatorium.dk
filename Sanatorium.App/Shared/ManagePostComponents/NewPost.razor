@@ -1,0 +1,36 @@
+﻿@using Sanatorium.Core.Posts
+@using Sanatorium.Core.Authors
+
+<PostTitleImage Post="Post" Author="Author"/>
+
+    <!-- Start Post Single Wrapper  -->
+    <div class="post-single-wrapper axil-section-gap bg-color-white">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8">
+                    <div class="axil-post-details">
+                        <PostBody Post="Post"/>
+                        <AuthorComponent Author="Author"/>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Post Single Wrapper  -->
+
+@code {
+
+    private Post? Post { get; set; }
+    private Author? Author { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Post = new Post();
+        Author = new Author();
+    }
+}

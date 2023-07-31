@@ -1,0 +1,41 @@
+﻿@using Sanatorium.Core.Users
+
+<div class="col-xl-6 d-none d-xl-block">
+    <div class="mainmenu-wrapper">
+        <nav class="mainmenu-nav">
+            <!-- Start Mainmanu Nav -->
+            <ul class="mainmenu">
+                <MenuItemMega/>
+                <MenuItemSingle/>
+                <AuthorizeView>
+                    @if (@context.User.HasRole(Role.Admin))
+                    {
+                        <MenuItemDropDown DropDownLinks="AdminLinks"/>
+                    }
+                </AuthorizeView>
+            </ul>
+            <!-- End Mainmanu Nav -->
+        </nav>
+    </div>
+</div>
+
+@code {
+    private DropDownLinks AdminLinks;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AdminLinks = new DropDownLinks
+        {
+            Title = "Admin",
+            Links = new[]
+            {
+                new DropDownLink
+                {
+                    LinkUrl = "/ManagePosts",
+                    LinkText = "Artikler"
+                }
+            }
+        };
+    }
+
+}

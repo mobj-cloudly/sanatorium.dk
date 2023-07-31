@@ -1,0 +1,66 @@
+﻿@page "/{MainTopicEncoded}/{TitleEncoded}"
+@using Sanatorium.Core.Posts
+@using Sanatorium.Core.Authors
+@using Sanatorium.Core.ContentManagement
+@inject IContentManager Content
+@inject NavigationManager NavManager
+
+@if (Post is null || Author is null)
+{
+    <Spinner/>
+}
+else
+{
+    <PostTitleImage Post="Post" Author="Author"/>
+
+    <!-- Start Post Single Wrapper  -->
+    <div class="post-single-wrapper axil-section-gap bg-color-white">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8">
+                    <div class="axil-post-details">
+                        <PostBody Post="Post"/>
+                        <AuthorComponent Author="Author"/>
+                        <CommentSection/>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- Start Sidebar Area  -->
+                    <Sidebar/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Post Single Wrapper  -->
+
+    <MoreStories/>
+}
+
+@code {
+
+    [Parameter]
+    public string? MainTopicEncoded { get; set; }
+
+    [Parameter]
+    public string? TitleEncoded { get; set; }
+
+    private Post? Post { get; set; }
+    private Author? Author { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Post = Content.GetPost(TitleEncoded);
+            Author = Content.GetAuthorById(Post.AuthorId);
+            if (!MainTopicEncoded.Equals(Post.MainTopicEncoded)) NavManager.NavigateTo("404");
+        }
+        catch (InvalidOperationException e)
+        {
+            NavManager.NavigateTo("404");
+        }
+    }
+
+}

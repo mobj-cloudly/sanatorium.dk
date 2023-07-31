@@ -1,0 +1,34 @@
+﻿@using Sanatorium.Core
+@using Sanatorium.Core.Authors
+@using Sanatorium.Core.Posts
+
+@if (AuthorsPosts is null || Author is null)
+{
+    <Spinner/>
+}
+else
+{
+    <div class="col-lg-12">
+        <div class="page-title">
+            <h2 class="title mb--40">@(AuthorsPosts.Any() ? "Artikler af denne skribent" : "Der er endnu ingen artikler af denne skribent")</h2>
+        </div>
+    </div>
+    <div class="col-lg-8 col-xl-8">
+        @for (var i = 0; i < AuthorsPosts.Length || i is 5; i++)
+        {
+            <div class="content-block post-list-view mt--30">
+                <PostListItem Post="AuthorsPosts[i]" Author="Author"/>
+            </div>
+        }
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public Post[]? AuthorsPosts { get; set; }
+
+    [Parameter]
+    public Author? Author { get; set; }
+
+}

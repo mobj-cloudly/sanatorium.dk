@@ -1,0 +1,43 @@
+﻿@page "/"
+@using Sanatorium.Core.Posts
+@using Sanatorium.Core.ContentManagement
+@using Sanatorium.Core.Authors
+@inject IContentManager ContentManager
+
+<PageTitle>Din kilde til velvære, sundhed og smertelindring</PageTitle>
+
+@if (RandomPost is null)
+{
+    <Spinner/>
+}
+else
+{
+    <BannerSlider PostAndAuthorList="RandomPost"/>
+    <FeaturedPosts Posts="Random2Posts"/>
+    <TopicTabSection/>
+    <TrendingTopics/>
+    <TrendingPostList/>
+    <MostPopularPostGrid/>
+    <PostList PostAndAuthorList="Random5Posts"/>
+
+}
+
+@code
+{
+    private IEnumerable<KeyValuePair<Post, Author>>? RandomPost { get; set; }
+    private IEnumerable<KeyValuePair<Post, Author>>? Random2Posts { get; set; }
+
+    private IEnumerable<KeyValuePair<Post, Author>>? Random5Posts { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        RandomPost = ContentManager.GetPosts(SortCondition.Random, 1)
+            .Select(post => new KeyValuePair<Post, Author>(post, ContentManager.GetAuthorById(post.AuthorId)));
+
+        Random2Posts = ContentManager.GetPosts(SortCondition.Random, 2)
+            .Select(post => new KeyValuePair<Post, Author>(post, ContentManager.GetAuthorById(post.AuthorId)));
+
+        Random5Posts = ContentManager.GetPosts(SortCondition.Random, 5)
+            .Select(post => new KeyValuePair<Post, Author>(post, ContentManager.GetAuthorById(post.AuthorId)));
+    }
+}

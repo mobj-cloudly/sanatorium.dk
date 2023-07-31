@@ -1,0 +1,61 @@
+﻿@using Sanatorium.Core.Posts
+@using Sanatorium.Core.Authors
+@using System.Text.Encodings.Web
+@using static System.Web.HttpUtility
+@using System.Security.Policy
+@using System.Globalization
+
+@if (Post is null || Author is null)
+{
+    <Spinner/>
+}
+else
+{
+    <div class="banner banner-single-post post-formate post-standard alignwide">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Start Single Slide  -->
+                    <div class="content-block">
+                        <!-- Start Post Thumbnail  -->
+                        <div class="post-thumbnail">
+                            <img src="@Post.ImageUrl" alt="@Post.Title">
+                        </div>
+                        <!-- End Post Thumbnail  -->
+                        <!-- Start Post Content  -->
+                        <div class="post-content">
+                            <div class="post-cat">
+                                <div class="post-cat-list">
+                                    <a class="hover-flip-item-wrapper">
+                                        <span class="hover-flip-item">
+                                            <span data-text="@Post.MainTopic">@Post.MainTopic</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <h1 class="title">
+                                @Post.Title
+                            </h1>
+                            <!-- Post Meta  -->
+                            <div class="post-meta-wrapper">
+                                <PostMeta Post="Post" Author="Author"/>
+                            </div>
+                        </div>
+                        <!-- End Post Content  -->
+                    </div>
+                    <!-- End Single Slide  -->
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public Post? Post { get; set; }
+
+    [Parameter]
+    public Author? Author { get; set; }
+
+}

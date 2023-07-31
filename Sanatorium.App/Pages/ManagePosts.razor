@@ -1,0 +1,25 @@
+﻿@page "/ManagePosts"
+@using Sanatorium.Core.Users
+
+@attribute [Authorize]
+
+<AuthorizeView>
+    @if (@context.User.HasRole(Role.Admin))
+    {
+        <NewPost/>
+    }
+    else
+    {
+        <div class="post-single-wrapper axil-section-gap bg-color-white">
+            <div class="container">
+                <div class="row">
+                    <p>Du skal være admin for at få adgang til denne side ...</p>
+                </div>
+            </div>
+        </div>
+    }
+</AuthorizeView>
+
+@code {
+
+}

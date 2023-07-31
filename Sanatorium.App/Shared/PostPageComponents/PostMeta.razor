@@ -1,0 +1,60 @@
+﻿@using Sanatorium.Core.Posts
+@using Sanatorium.Core.Authors
+@using System.Globalization
+
+@if (Post is null || Author is null)
+{
+    <Spinner/>
+}
+else
+{
+    <div class="post-meta">
+        <div class="post-author-avatar border-rounded">
+            <img src="@Author.ImageUrl" alt="@Author.Name">
+        </div>
+        <div class="content">
+            <h6 class="post-author-name">
+                <a class="hover-flip-item-wrapper" href="@Author.AuthorLink">
+                    <span class="hover-flip-item">
+                        <span data-text="@Author.Name">@Author.Name</span>
+                    </span>
+                </a>
+            </h6>
+            <ul class="post-meta-list">
+                <li>@Post.PublishDate</li>
+                <li>@Post.ViewCount Visninger</li>
+            </ul>
+        </div>
+    </div>
+    <ul class="social-share-transparent justify-content-end">
+        <li>
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fas fa-link"></i>
+            </a>
+        </li>
+    </ul>
+}
+
+@code {
+
+    [Parameter]
+    public Post? Post { get; set; }
+
+    [Parameter]
+    public Author? Author { get; set; }
+}

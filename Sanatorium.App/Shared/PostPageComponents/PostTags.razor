@@ -1,0 +1,20 @@
+﻿@if (Tags is null)
+{
+    <Spinner/>
+}
+else
+{
+    <div class="tagcloud">
+        @foreach (var tag in Tags)
+        {
+            <a>@tag</a>
+        }
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public IEnumerable<string>? Tags { get; set; }
+
+}

@@ -1,0 +1,36 @@
+﻿@using Sanatorium.Core.Posts
+@using Sanatorium.Core.Authors
+
+@if (PostAndAuthorList is null)
+{
+    <Spinner/>
+}
+else
+{
+    <div class="axil-post-list-area post-listview-visible-color axil-section-gap bg-color-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-xl-8">
+                    <PostListCommercialBanner/>
+                    @foreach (var (post,author) in PostAndAuthorList)
+                    {
+                        <div class="content-block post-list-view axil-control is-active mt--30">
+                            <PostListItem Post="post" Author="author"/>
+                        </div>
+                    }
+                </div>
+                <div class="col-lg-4 col-xl-4 mt_md--40 mt_sm--40">
+                    <Sidebar/>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+
+    [Parameter]
+    public IEnumerable<KeyValuePair<Post, Author>>? PostAndAuthorList { get; set; }
+
+}

@@ -1,0 +1,5 @@
+﻿#featured-post-image {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    max-width: 450px;
+}

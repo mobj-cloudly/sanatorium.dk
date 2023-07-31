@@ -1,0 +1,179 @@
+<mxfile host="Electron" modified="2023-07-03T05:19:10.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" etag="-uxeMakA_-K4MlcwqZor" version="21.5.1" type="device">
+  <diagram name="Page-1" id="FduLBuW35Ewb_CiOgqSc">
+    <mxGraphModel dx="2082" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="20" width="2310" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="696" width="2260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-18" value="Edge services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#66B2FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-190" y="756" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="465" width="1470" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-1" target="JMQNNHda1Y9FC9UDeA3A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Visitor" c4Type="Person" c4Description="Consumer" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="70" y="190" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-2" target="JMQNNHda1Y9FC9UDeA3A-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Business Admin" c4Type="Person" c4Description="Clinic employee (Subscriber)" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-2">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="629" y="190" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-3" target="JMQNNHda1Y9FC9UDeA3A-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="640" />
+              <mxPoint x="690" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Mit.Sanatorium.dk" c4Type="Blazor WA PWA app" c4Description="My appointments, dialogues etc" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="330" y="480" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-4" target="JMQNNHda1Y9FC9UDeA3A-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-4" target="JMQNNHda1Y9FC9UDeA3A-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="400" />
+              <mxPoint x="230" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Patient" c4Type="Person" c4Description="Consumer" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-4">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="350" y="190" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Sanatorium.dk" c4Type="Blazor serverside website" c4Description="Subject Matter Expert info" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="50" y="480" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.592;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-9" target="JMQNNHda1Y9FC9UDeA3A-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="640" as="sourcePoint" />
+            <mxPoint x="220" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="729" y="630" />
+              <mxPoint x="192" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.563;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-9" target="JMQNNHda1Y9FC9UDeA3A-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="660" />
+              <mxPoint x="445" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-9" target="JMQNNHda1Y9FC9UDeA3A-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="660" />
+              <mxPoint x="750" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-9" target="JMQNNHda1Y9FC9UDeA3A-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="660" />
+              <mxPoint x="949" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-9" target="JMQNNHda1Y9FC9UDeA3A-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="630" />
+              <mxPoint x="1210" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Admin.Sanatorium.dk" c4Type="Blazor serverside admin site" c4Description="Business Management System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="609" y="480" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-11" target="JMQNNHda1Y9FC9UDeA3A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="System Admin" c4Type="Person" c4Description="Sanatorium owner employee" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-11">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="910" y="190" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Control.Sanatorium.dk" c4Type="Blazor serverside admin site" c4Description="Subscription Management System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="890" y="480" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-14" target="JMQNNHda1Y9FC9UDeA3A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Articles" c4Type="Container" c4Technology="WebAPI" c4Description="Description of container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="50" y="714" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-16" value="Front-end clients" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#66B2FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-190" y="525" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.293;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JMQNNHda1Y9FC9UDeA3A-22" target="JMQNNHda1Y9FC9UDeA3A-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Authors" c4Type="Container" c4Technology="WebAPI" c4Description="Description of container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="310" y="714" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Appointments" c4Type="Container" c4Technology="WebAPI" c4Description="Description of container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-25">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="570" y="714" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Communication" c4Type="Container" c4Technology="WebAPI" c4Description="SMS, Email" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-29">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="829" y="714" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Marketing" c4Type="Container" c4Technology="WebAPI" c4Description="Facebook, Google Ads, Email" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-33">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1090" y="711" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="CRM" c4Type="Container" c4Technology="WebAPI" c4Description="Managing patients" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-35">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1350" y="714" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Invoicing and Payments" c4Type="Container" c4Technology="WebAPI" c4Description="Revenue management" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JMQNNHda1Y9FC9UDeA3A-36">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1610" y="711" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JMQNNHda1Y9FC9UDeA3A-37" value="" style="shape=image;aspect=fixed;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="80" width="267" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

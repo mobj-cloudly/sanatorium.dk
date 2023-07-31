@@ -1,0 +1,70 @@
+﻿@using Sanatorium.Core.Authors
+
+@if (Author is null)
+{
+    <Spinner/>
+}
+else
+{
+    <div class="about-author">
+        <div class="media">
+            <div class="thumbnail">
+                <a>
+                    <img src="@Author.ImageUrl" alt="Author Images">
+                </a>
+            </div>
+            <div class="media-body">
+                <div class="author-info">
+                    <h1 class="title">
+                        <a>@Author.Name</a>
+                    </h1>
+                    <span class="b3 subtitle">@Author.Title</span>
+                </div>
+                <div class="content">
+                    <p class="b1 description">@Author.Description</p>
+                    <ul class="social-share-transparent size-md">
+                        @if (!string.IsNullOrWhiteSpace(Author.FacebookUrl))
+                        {
+                            <li>
+                                <a href="@Author.FacebookUrl">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(Author.InstagramUrl))
+                        {
+                            <li>
+                                <a href="@Author.InstagramUrl">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(Author.TwitterUrl))
+                        {
+                            <li>
+                                <a href="@Author.TwitterUrl">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(Author.LinkedinUrl))
+                        {
+                            <li>
+                                <a href="@Author.LinkedinUrl">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public Author? Author { get; set; }
+
+}

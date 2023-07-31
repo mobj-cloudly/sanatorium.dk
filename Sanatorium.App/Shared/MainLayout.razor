@@ -1,0 +1,27 @@
+﻿@inherits LayoutComponentBase
+@inject IJSRuntime JsRuntime
+
+<PageTitle>Sanatorium</PageTitle>
+<SanatoriumHeader />
+<MobileMenu />
+@Body
+@*<InstagramRow />*@
+<SanatoriumFooter />
+<a id="backto-top"></a>
+@code
+{
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./assets/js/vendor/modernizr.min.js");
+            await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./assets/js/vendor/jquery.js");
+            await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./assets/js/vendor/bootstrap.min.js");
+            await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./assets/js/vendor/slick.min.js");
+            await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./assets/js/vendor/tweenmax.min.js");
+            await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./assets/js/vendor/js.cookie.js");
+            await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./assets/js/vendor/jquery.style.switcher.js");
+            await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./assets/js/main.js");
+        }
+    }
+}

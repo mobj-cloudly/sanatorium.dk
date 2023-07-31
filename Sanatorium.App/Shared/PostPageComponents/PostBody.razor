@@ -1,0 +1,69 @@
+﻿@using Sanatorium.Core.Posts
+
+@if (Post is null)
+{
+    <Spinner/>
+}
+else
+{
+    @foreach (var postElement in Post.Body)
+    {
+        switch (postElement.ElementType)
+        {
+            case "Headline":
+                <h2>@postElement.PreText</h2>
+                break;
+            case "SubHeadline":
+                <p class="has-medium-font-size">@postElement.PreText</p>
+                break;
+            case "BodyImage":
+                <figure class="wp-block-image">
+                    <img src="@postElement.ImageUrl" alt="@Post.Title">
+                    <figcaption>@postElement.ImageText</figcaption>
+                </figure>
+                break;
+            case "BigQuote":
+                <blockquote>
+                    <p>“@postElement.PreText”</p>
+                </blockquote>
+                break;
+            case "Quote":
+                <p>“@postElement.PreText”</p>
+                break;
+            case "Paragraph":
+                <p>@postElement.PreText</p>
+                break;
+            case "ParagraphWithLink":
+                <p>
+                    @postElement.PreText
+                    <a href="@postElement.LinkUrl">@postElement.LinkText</a>.@postElement.PostText
+                </p>
+                break;
+            case "BulletList":
+                <ul>
+                    @foreach (var bullet in postElement.Bullets)
+                    {
+                        <li>@bullet</li>
+                    }
+                </ul>
+                break;
+            default:
+                <p>@postElement.PreText</p>
+                break;
+        }
+    }
+
+    <PostTags Tags="@Post.Tags"/>
+    <div class="social-share-block">
+        <PostLike/>
+        <PostShare/>
+    </div>
+
+}
+
+@code {
+
+    [Parameter]
+    public Post? Post { get; set; }
+
+}

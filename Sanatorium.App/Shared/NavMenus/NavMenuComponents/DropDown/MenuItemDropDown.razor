@@ -1,0 +1,28 @@
+﻿@if (DropDownLinks is null)
+{
+    <Spinner/>
+}
+else
+{
+    <li class="menu-item-has-children">
+        <a href="#">@DropDownLinks.Title</a>
+        <ul class="axil-submenu">
+            @foreach (var link in DropDownLinks.Links)
+            {
+                <li>
+                    <a class="hover-flip-item-wrapper" href="@link.LinkUrl">
+                        <span class="hover-flip-item">
+                            <span data-text="@link.LinkText">@link.LinkText</span>
+                        </span>
+                    </a>
+                </li>
+            }
+        </ul>
+    </li>
+}
+
+
+@code {
+    [Parameter]
+    public DropDownLinks? DropDownLinks { get; set; }
+}
